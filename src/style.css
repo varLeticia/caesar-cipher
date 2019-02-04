@@ -1,0 +1,114 @@
+/*style dos botões*/
+#cifrar {
+    background-color: rgb(166, 230, 247) ;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'VT323', monospace;
+    font-size: 25px;  
+    border-radius: 5px;
+
+}
+
+#decifrar {
+    background-color: rgb(166, 230, 247) ;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'VT323', monospace;
+    font-size: 25px;
+    border-radius: 5px;
+
+}
+
+#deslocamento {   
+    color: black;
+    justify-content: center;
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+}
+
+/*style das caixas de texto*/ 
+#textoCifrar {
+    size: 60px;
+    border: none;
+    border-width: 5%;
+    padding-top: 20px;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'VT323', monospace;
+}
+
+#textoDecifrar {  
+    size: 60px;
+    border: 7px;
+    text-align: center;
+    padding-top: 5px;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'VT323', monospace;
+}
+
+#textoDeslocamento {
+    size: 20px;
+    border:none;
+    border-width: 5%;
+    text-align: center;
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+    height: 30px;
+}
+
+#tudo {
+    background-image: url(https://www.xda-developers.com/files/2019/01/Security-571302-edited-1024x512.jpg);
+    font-family: 'VT323', monospace;
+}
+
+#nav {
+    font-size: 550%;
+    background-color: rgba(13, 13, 126, 0.664);
+    height: 150px;
+    text-align: center;
+    align-content: center;
+    width: 700px;
+    height: 100px;
+    margin: 50px 500px 0px 290px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+
+} 
+
+#inputs {
+    text-align: center;
+    align-content: center;
+    padding-left: 20px;
+    background-color: rgba(33, 162, 212, 0.678);
+    background-size: 500px;
+    width: 700px;
+    margin: 20px 600px 20px 300px;
+    padding-top: none;
+    padding: 10px;  
+    border-radius: 20px;
+}
+
+#pDeslocamento {
+    text-align: center;
+    align-content: center;
+    padding-left: 0px;
+}
+
+table, td, tr {
+    padding: 10px;
+}
+
+td, tr {
+    width: 33%;
+}
+
+#detalhes {
+    font-size: 24px;
+    width: 700px;
+    background-position-x: center;
+    margin-bottom: none;
+}

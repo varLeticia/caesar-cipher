@@ -1,13 +1,68 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8"> 
     <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
   </head>
-  <body>
-    <div id="root"></div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
-</html>
+  
+    <body id="tudo">
+        <div id="root"></div>
+        <script src="cipher.js"></script>
+        <script src="tests.js"></script>
+
+        <h1 id="nav" >Caesar Cypher</h1>
+
+        <div id="inputs" >
+            <table style="width: 40%; margin: auto;">
+
+                <tr>
+                    <td colspan="3" style="text-align: center; ">
+                    <P id="deslocamento"><strong>Deslocamento:</strong>  </P><input type="number" id="textoDeslocamento">
+                    </td>
+                </tr>
+                    <details id="detalhes">Trata-se de um tipo de cifra de substituição, 
+                        na qual cada letra de um texto a ser criptografado é substituída por outra letra, 
+                        presente no alfabeto porém deslocada um certo número de posições à esquerda ou à direita.
+                         Escolha abaixo o valor do deslocamento e digite uma palavra.
+                    </details>
+                <tr>
+                    <td colspan="3" style="text-align: center">
+                    
+                    </td>
+                </tr>
+                <tr>  
+                    <td style="text-align: left">
+                        <input type="text" id="textoCifrar">
+                    </td>
+                    <td>
+                    </td>
+                    <td style="text-align: right">
+                        <input type="text" id="textoDecifrar" >
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">
+                        <input type="button" id="cifrar" value="Cifrar" onclick="chamarCifrar()">       
+                    </td>
+                    <td>
+                    
+                    </td>
+                    <td style="text-align: center ">
+                        <img src="" alt="" onclick="cifrar" >
+                        <input type="button" id="decifrar" value="Decifrar" onclick="chamarDecifrar()">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td id="resposta" colspan="3">
+
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+
+    </body>
+</html
